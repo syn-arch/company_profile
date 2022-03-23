@@ -1,0 +1,144 @@
+.carousel-img {
+  max-height: 100vh;
+}
+
+.carousel-caption {
+  border-top: 10px solid #07bf07;
+  background-color: #00000094;
+}
+
+.vh-50 {
+  height: 50vh;
+}
+
+.primary {
+  color: #07bf07;
+}
+
+.active {
+  color: #07bf07 !important;
+}
+
+.title-container {
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.title-container h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #07bf07;
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+
+.about-us-title {
+  font-size: 50px;
+}
+
+.about-us-subtitle {
+  font-size: 28px;
+}
+
+.card-icon {
+  transition: 0.5s;
+}
+
+.card-icon:hover {
+  color: #07bf07;
+}
+
+.mansory-sizer,
+.mansory-item {
+  width: 30%;
+}
+
+.brand-image {
+  width: 50%;
+  object-fit: cover;
+  filter: grayscale(1);
+  transition: 0.5s;
+}
+
+.brand-image:hover {
+  filter: grayscale(0);
+  transform: scale(1.2);
+}
+
+a {
+  color: white;
+}
+
+.btn-subscribe,
+.btn-to-top {
+  background: #07bf07;
+}
+
+.btn-to-top {
+  display: inline;
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+}
+
+.bg-darker {
+  background: #111;
+}
+
+.portfolio-filters li {
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.portfolio-filters .filter-active,
+.breadcumbs {
+  background: #07bf07;
+}
+
+.breadcumbs {
+  margin-top: 72px;
+}
+
+.breadcumbs ol li + li::before {
+  display: inline-block;
+  color: white;
+  padding-right: 10px;
+  padding-left: 10px;
+  content: "/";
+}
+
+.card-img-top {
+  height: 400px;
+  object-fit: cover;
+}
+
+.img-testimonial {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.testimonial-item .card-body h4 {
+  font-size: 18px;
+}
+
+.btn-submit {
+  background: #07bf07;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .mansory-sizer,
+  .mansory-item {
+    width: 40%;
+  }
+}
+@media (max-width: 576px) {
+  .mansory-sizer,
+  .mansory-item {
+    width: 100%;
+  }
+}
